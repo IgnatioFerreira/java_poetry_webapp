@@ -30,7 +30,7 @@ public class DemoApplication {
     public String simpleRequest() throws FileNotFoundException {
         Random rand = new Random();
         String randomNumber = Integer.toString(rand.nextInt(0, 85));
-        File file = new File("C:\\Users\\User\\Desktop\\spring-demo-main\\src\\poems\\"+ randomNumber  + ".txt");
+        File file = new File("src/poems/"+ randomNumber  + ".txt");
         Scanner sc = new Scanner(file);
         String content = sc.useDelimiter("\\A").next();
         sc.close();
