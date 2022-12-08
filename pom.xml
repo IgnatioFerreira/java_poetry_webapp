@@ -41,7 +41,7 @@
 				<version>2.4.4</version>
 				<configuration>
 					<deploy.projectId>java-poetry-webapp</deploy.projectId>
-					<deploy.version>scracth-f86f481</deploy.version>
+					<deploy.version>scracth</deploy.version>
 				  </configuration>
 			</plugin>
 		</plugins>

@@ -1,13 +1,12 @@
 package com.example.poetrywebapp;
-
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Random;
+import java.util.Scanner;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 
 @SpringBootApplication
 @RestController
@@ -26,9 +25,7 @@ public class PoetryWebAppApplication {
         // String content = sc.useDelimiter("\\A").next();
         // sc.close();
 
-        // // In this case, we return the plain text response "ok"
         // return content;
-
         return "ok";
     }
 }
