@@ -1,6 +1,6 @@
-runtime: java11
+runtime: java17
 env: standard
 # remember to use an instance class compatible with your scaling type
 handlers:
-  - url: .*
+  - url: /.*
     script: auto
