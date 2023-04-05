@@ -41,7 +41,7 @@
                 <version>2.4.4</version>
                 <configuration>
                     <deploy.projectId>java-poetry-webapp</deploy.projectId>
-                    <deploy.version>random-poem-mvp</deploy.version>
+                    <deploy.version>testing</deploy.version>
                   </configuration>
             </plugin>
             <plugin>

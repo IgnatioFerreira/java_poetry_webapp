@@ -23,7 +23,7 @@ public class PoetryWebAppApplication {
 
     }
 
-    @GetMapping("/la")
+    @GetMapping("/")
     public String simple_one() throws IOException {
 
         Random rand = new Random();
@@ -33,7 +33,7 @@ public class PoetryWebAppApplication {
         InputStream ioStream = this.getClass()
                 .getClassLoader()
                 .getResourceAsStream("data/poems/" + randomNumber + ".txt");
-
+            
         Scanner sc = new Scanner(ioStream);
         String content = sc.useDelimiter("\\A").next();
         sc.close();
